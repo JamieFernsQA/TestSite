@@ -1,0 +1,26 @@
+<html>
+<head>
+<script> 
+
+
+
+var person = {name:"John", age:30, occupation: "Labourer" };
+var output = person.name + " " + person.age + " " + person.occupation; 
+window.alert(output);
+var person = {name:"James", age:24, occupation: "Plumber" };
+var output = person.name + " " + person.age + " " + person.occupation;
+window.alert(output);
+
+    function addyear() {
+++person.age;
+var noutput = person.name + " " + person.age + " " + person.occupation;
+window.alert(noutput)
+}
+
+</script>
+</head>
+<body>
+
+        <button type="button" onclick="addyear()">Add 1 to age!</button>
+</body>
+</html>
