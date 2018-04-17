@@ -1,0 +1,31 @@
+<html>
+<head>
+
+</head>
+<body>
+         <p>Please input a number between 20 and 40:</p>
+        
+        <input id="numb">
+        
+        <button type="button" onclick="myFunction()">Submit</button>
+        
+        <p id="demo"></p>
+        
+        <script>
+        function myFunction() {
+            var x, text;
+        
+             x = document.getElementById("numb").value;
+            
+            if (isNaN(x) || x < 20 || x > 40) {
+                text = "false";
+            } else {
+                text = "true";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+        </script>
+        
+      
+</body>
+</html>
