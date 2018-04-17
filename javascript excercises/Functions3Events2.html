@@ -1,8 +1,32 @@
 <html>
 <head>
-<script>   
-</script>
+
 </head>
+
 <body>
+        <p>input details and click OK:</p>
+        
+        <input id="id1" type="string"  >
+        <input id="id2" type="number"  >
+        <input id="id3" type="string"  >
+
+        <button onclick="myFunction()">OK</button>
+        
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OCCUPATION</p>
+        
+        
+
+        <script>
+            
+                function myFunction() {
+                    document.getElementById("id1")
+                    document.getElementById("id2")
+                    document.getElementById("id3")
+                    document.getElementById("demo").innerHTML = "My name is " + id1.value + ", I am " + id2.value + " years old and I work as a " + id3.value ;   
+                }
+                </script>
+
+<p id="demo"></p>
+
 </body>
 </html>
